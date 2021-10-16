@@ -1,4 +1,4 @@
-#write a program to fing a number is even or odd.
+#write a program to find a number is even or odd.
 num = int(input("Enter a number: "))
 # A number is even if division by 2 gives a remainder of 0.
 if (num % 2) == 0:
