@@ -1,11 +1,11 @@
 #write a program to find a number is even or odd.
-num = int(input("Enter a number: "))
+n = int(input("Enter a number: "))
 # A number is even if division by 2 gives a remainder of 0.
-if (num % 2) == 0:
-   print("{0} is Even".format(num))
+if (n % 2) == 0:
+   print("n is even")
 # If the remainder is 1, it is an odd number.
 else:
-   print("{0} is Odd".format(num))
+   print("n is odd")
    
    
    
