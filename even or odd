@@ -1,0 +1,23 @@
+#write a program to fing a number is even or odd.
+num = int(input("Enter a number: "))
+# A number is even if division by 2 gives a remainder of 0.
+if (num % 2) == 0:
+   print("{0} is Even".format(num))
+# If the remainder is 1, it is an odd number.
+else:
+   print("{0} is Odd".format(num))
+   
+   
+   
+   
+   
+   
+#For giving an n value as input
+n=int(input("Enter a number:"))
+#After doing division if output is an integer then it is an even number
+#When the given condition is true then if block is executed otherwise else block is executed
+if(int(n/2)*2==n):
+    print("n is even")
+#If output is not an integer value then it is an odd number
+else:
+    print("n is odd")
