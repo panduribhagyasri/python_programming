@@ -5,3 +5,13 @@ elif n<0:
     print("The number is negative")
 else:
     print("The number is zero")
+
+output:
+Enter the number: 4
+The number is postive
+
+Enter the number: -9
+The number is negative
+
+Enter the number: 0
+The number is zero
