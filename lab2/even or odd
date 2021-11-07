@@ -1,7 +1,7 @@
 #write a program to find a number is even or odd.
 n = int(input("Enter a number: "))
 # A number is even if division by 2 gives a remainder of 0.
-if (n % 2) == 0:
+if n % 2== 0:
    print("n is even")
 # If the remainder is 1, it is an odd number.
 else:
@@ -15,7 +15,7 @@ else:
 n=int(input("Enter a number:"))     #For giving an n value as input
 #After doing division if output is an integer then it is an even number
 #When the given condition is true then if block is executed otherwise else block is executed
-if(int(n/2)*2==n):
+if int(n/2)*2==n:
     print("n is even")
 #If output is not an integer value then it is an odd number
 else:
